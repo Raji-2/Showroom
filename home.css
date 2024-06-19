@@ -1,0 +1,529 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+        width: 100%;
+        height: 50px;
+        padding:2px;
+    }
+header ol {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+header input{
+        height: 25px;
+    }
+header ol li{
+        color: grey;
+    }
+#b1{
+        padding-left: 10px;
+    }
+#b2{
+        padding-left: 10px;
+        color: rgb(128, 118, 118);
+    }
+label{
+        padding-left: 10px;
+        color: rgb(128, 118, 118);
+    }
+    #b3{
+        color: rgb(128, 118, 118);
+        padding-left: 160px;
+    }
+    select{
+        margin-left: 10px;
+        height: 30px;
+        width: 200px;
+    }
+    h3{
+        padding-left: 10px;
+    }
+    table tr td{
+        width: 100px;
+        border: 1px solid grey;
+        padding: 10px;
+    }
+    table{
+        margin-left: 10px;
+        border-collapse: collapse;
+        border-radius: 5px;
+    }
+    table tr td a{
+        padding-left: 300px;
+        color: blue;
+        text-decoration: none;
+    }
+    .h1{
+        display: inline;
+        padding-left: 20px;
+    }
+    .h2{
+        display: inline;
+        padding-left: 20px;
+    }
+    #b5{
+        width: 300px;
+        height: 40px;
+        border: 2px solid rgb(163, 157, 157);
+        float: left;
+        margin-left: 20px;
+    }
+    #b6{
+        width: 300px;
+        height: 40px;
+        border: 2px solid rgb(163, 157, 157);
+        float: right;
+        margin-right: 500px;
+    }
+    .b7{
+        width: 80%;
+        height: 50px;
+        border: 1px solid  rgb(202, 195, 195);
+        margin-left: 10px;
+        margin-top: 20px;
+        padding: 5px;
+    }
+    .b7 ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+    }
+    #box ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    pre{
+        padding-left: 10px;
+    }
+    hr{
+        margin-left: 10px;
+    }
+    .box{
+        width: 30%;
+        height: 30px;
+    }
+    .box ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+    }
+    .box ul li a{
+        font-size: 24;
+        text-decoration: none;
+        color: black;
+    }
+    .box ul li a :active,:focus{
+        border-bottom: 2px solid green;
+    }
+    .box1{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 10px;
+    }
+    .box1 div{
+        width: 250px;
+        height: 260px;
+        border: 2px solid rgb(170, 165, 165);
+    }
+    #b12 {
+        text-decoration: none;
+        padding-left: 10px;
+        color: rgb(34, 34, 212);
+    }
+    #b13{
+        text-decoration: none;
+        color: black;
+    }
+    .box3{
+        width: 100%;
+        height: 350px;
+        background-color: rgb(46, 46, 110);
+    }
+    .box3 ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+    }
+    .box3 ul li{
+        padding: 30px;
+    }
+    #b14{
+        border: 1px solid blue;
+    }
+    .box3 pre h4{
+        padding: 20px;
+        color: rgb(101, 101, 199);
+    }
+    .box3 i{
+        display: flex;
+        margin-left: 10px;
+    }
+    .box3 h3{
+        width: 100%;
+        display: inline;
+        padding: 45px;
+    }
+    .box3 h5{
+        color: rgb(96, 66, 207);
+        padding: 20px;
+    }
+    .box1 div:hover{
+        background-color: aquamarine;
+        border: 2px dotted orange;
+    }
+
+/*
+    @media(max-width: 624px) {
+        header {
+            height: auto;
+            padding: 10px;
+            background-color: rgb(195, 173, 216);
+        }
+        header ol {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        header ol li {
+            margin: 5px 0;
+        }
+        header input {
+            width: 80%;
+        }
+        .container img {
+            width: 100%;
+            height: auto;
+        }
+        h2, h3, h5, label {
+            padding-left: 13px;
+            padding-right: 10px;
+            text-align: center;
+        }
+        #b3{
+            padding-left: 190px;
+        }
+        select {
+            width: 39%;
+            margin: 10px auto;
+            margin-left: 10px;
+        }
+        table {
+            width: 97%;
+        }
+        #anc{
+            padding-left: 250px;
+        }
+        #b5, #b6 {
+            width: 50%;
+            margin: 10px auto;
+            float: none;
+            padding-left: 50px;
+        }
+        .b7 {
+            width: 95%;
+            margin: 10px auto;
+        }
+        .b7 ul {
+            display: flex;
+            align-items: center;
+        }
+        .box {
+            width: 100%;
+            margin: 10px auto;
+        }
+        .box ul {
+            display: flex;
+            align-items: center;
+        }
+        .box1 {
+            flex-direction: column;
+            align-items: center;
+            height: 800px;
+        }
+        .box1 div {
+            width: 250px;
+            margin: 10px 0;
+        }
+        .box3 {
+            height: auto;
+            padding: 10px;
+        }
+        .box3 ul {
+            display: flex;
+            align-items: center;
+        }
+        .box3 ul li {
+            padding: 10px;
+        }
+        .box3 pre, .box3 h3, .box3 h5 {
+            text-align: center;
+    }
+*/
+
+
+/*@media (max-width: 650px) {
+    header ol {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header ol li {
+        margin-bottom: 10px;
+    }
+
+    header input {
+        width: 80%;
+    }
+
+    #b3 {
+        padding-left: 10px;
+    }
+
+    select {
+        width: calc(100% - 20px);
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    table {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    table tr td {
+        width: auto;
+        padding: 5px;
+    }
+
+    table tr td a {
+        padding-left: 0;
+    }
+
+    .b7 {
+        width: calc(100% - 20px);
+        margin-left: 10px;
+    }
+
+    .box1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box1 div {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .box3 ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box3 ul li {
+        padding: 10px;
+    }
+
+    .box3 h3 {
+        padding: 20px;
+    }
+}
+    */
+
+
+   /* @media (max-width: 720px) {
+        header {
+            height: auto;
+            padding: 10px;
+            background-color: rgb(195, 173, 216);
+        }
+        header ol {
+            display: flex;
+            align-items: center;
+        }
+    
+        header ol li {
+            margin-bottom: 10px;
+        }
+    
+        header input {
+            width: 80%;
+        }
+    
+        #b3 {
+            padding-left: 160px;
+        }
+    
+        select {
+            width: 30%;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+    
+        table {
+            width: 97%;
+            margin-left: 10px;
+        }
+    
+        table tr td {
+            width: auto;
+            padding: 5px;
+        }
+    
+        table tr td a {
+            padding-left: 0;
+        }
+        #b5, #b6 {
+            width: 50%;
+            margin: 10px auto;
+            float: none;
+            padding-left: 50px;
+        }
+        h2, h3, h5, label {
+            padding-left: 13px;
+            padding-right: 10px;
+            text-align: center;
+        }
+        .b7 {
+            width: calc(100% - 20px);
+            margin-left: 10px;
+        }
+        .box {
+            width: 100%;
+            margin: 10px auto;
+        }
+        .box ul {
+            display: flex;
+            align-items: center;
+        }
+        .box1 {
+            display: grid;
+            align-items: center;
+            height: 1000px;
+        }
+        .box1 div img{
+            width: 200px;
+        }
+        .box1 div {
+            width: 93%;
+            margin-bottom: 20px;
+        }
+        .box3{
+            height: 300px;
+        }
+        .box3 ul {
+            display: flex;
+            align-items: center;
+        }
+    
+        .box3 ul li {
+            padding: 10px;
+        }
+    
+        .box3 h3 {
+            padding: 20px;
+        }
+    }
+
+    */
+
+    @media (max-width: 720px) {
+        header ol {
+            justify-content: space-around;
+        }
+    
+        header ol li {
+            flex: 1 1 auto; /* Allow items to take only as much space as they need */
+            text-align: center; /* Center-align text for better appearance */
+        }
+    
+        header input {
+            width: 45px;
+             /* Add spacing between elements */
+        }
+    
+        #b3 {
+            padding-left: 10px;
+        }
+    
+        select {
+            width: 90%;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+    
+        table {
+            width: 97%;
+            margin-left: 10px;
+        }
+    
+        table tr td {
+            width: auto;
+        }
+        #b5, #b6 {
+            width: 60%;
+            margin-left: 15px;
+            margin-bottom: 5px;
+            float: none;
+            padding-left: 10px;
+        }
+        #adj{
+            height: 120px;
+        }
+        .b7{
+            display: none;
+        }
+        .box {
+            width: 80%;
+            height: 100px;
+            margin: 10px auto;
+        }
+        .box ul li{
+            display: flex;
+            align-items: center;
+        }
+        .box1 {
+            height: 1000px;
+            justify-content: center;
+            display: grid;
+        }
+        .box1 div img{
+            width: 250px;
+            height: 150px;
+        }
+        .box3{
+            height: 360px;
+        }
+        .box3 ul {
+            justify-content: center;
+        }
+        .name{
+            padding: 10px;
+        }
+        .icon{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .box3 ul li {
+            padding: 10px;
+        }
+    
+        .box3 h3 {
+            padding: 20px;
+        }
+    
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    
+        .container img {
+            width: 100%;
+            height: auto;
+        }
+    }

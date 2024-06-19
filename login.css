@@ -1,0 +1,37 @@
+.container{
+    width: 25%;
+    height: 440px;
+    border: 2px solid rgb(194, 183, 183);
+    margin-left: 500px;
+    margin-top: 60px;
+    padding:50px;
+    border-radius: 10%;
+    background-color: rgb(209, 218, 91);
+}
+.b1{
+    width: 300px;
+    height: 30px;
+    border: 1px solid rgb(190, 181, 181);
+}
+button{
+    margin-left: 50px;
+    height: 30px;
+    width: 200px;
+    color: aliceblue;
+    background-color: red;
+    border: transparent;
+}
+a{
+    color: rgb(54, 54, 226);
+}
+#acc{
+    padding-left: 50px;
+}
+#ch{
+    color: grey;
+}
+body{
+    background-image: url(download\ \(6\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
